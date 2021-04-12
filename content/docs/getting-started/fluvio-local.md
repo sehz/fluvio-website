@@ -21,6 +21,14 @@ is working as expected.
 
 [Fluvio CLI]: ../
 
+{{< idea >}}
+
+**Note**: If you installed Fluvio prior to version `0.7.4` and then upgraded,
+you may need to run `fluvio install fluvio-run` in order to continue. If you can
+run `fluvio run -h` and see a help menu, you're good to go 👍
+
+{{</ idea >}}
+
 ## Required Packages
 
 1) [Install Docker](#installing-docker)
